@@ -102,20 +102,93 @@ p {
     color: #717FA6;
 }
 
+.plan-border {
+    height: 81px;
+    background-color: #F7F9FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 279px;
+    border-radius: 11px;
+}
+
 .plan-container {
     height: 48px;
-    background-color: #F7F9FF;
+    width: 246px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-width: 247px;
-    max-width: 247px;
-    padding: 33px;
 }
 
 .icon-music {
     width: 48px;
+    
+}
+
+.plan {
+    font-size: 14px;
+    text-align: left;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plan-name {
+    font-weight: 900;
+    line-height: 19px;
+    height: 19px;
+}
+
+.plan-detail {
+    height: 19px;
+    color: rgba(113, 127, 166, 1);
+}
+
+.change {
+    color: rgba(56, 42, 225, 1);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.change:visited {
+    color: rgba(56, 42, 225, 1);
+}
+
+.change:hover {
+    color: rgba(118, 108, 241, 1);
+
+}
+
+button {
+    height: 50px;
+    width: 279px;
+    border-radius: 11px;
+    border: none;
+    background-color: #382AE1;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0 20px 20px rgba(56, 42, 225, 0.1903);
+}
+
+button:hover {
+    background-color: #766CF1;
+}
+
+.cancel {
+    height: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    color: rgba(113, 127, 166, 1);
+    text-decoration: none;
+}
+
+.cancel:hover {
+    color: rgba(31, 46, 85, 1);
+
 }
 
 .attribution {
