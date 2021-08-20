@@ -118,12 +118,13 @@ p {
     width: 246px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .icon-music {
     width: 48px;
+    padding-right: 15px;
     
 }
 
@@ -151,6 +152,8 @@ p {
     color: rgba(56, 42, 225, 1);
     font-size: 13px;
     font-weight: 700;
+    flex: 2;
+    text-align: right;
 }
 
 .change:visited {
@@ -193,4 +196,72 @@ button:hover {
 
 .attribution {
     display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+
+    .card {
+        width: 450px;
+        height: 697px;
+
+    }
+
+    .illustration-hero {
+        width: 450px;
+        border-radius: 20px 20px 0 0;
+    
+    }
+
+    .card-copy {
+        padding: 48px;
+    }
+
+    h1 {
+        font-size: 28px;
+        height: 37px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .plan-border {
+        height: 98px;
+        width: 354px;
+    }
+
+    .plan-container {
+        width: 306px;
+    }
+
+    .icon-music {
+        width: 48px;
+        padding-right: 20px;
+        
+    }
+
+    .plan {
+        font-size: 16px;
+        height: 48px;
+    }
+
+    .plan-name {
+        line-height: 21px;
+        height: 21px;
+    }
+    
+    .plan-detail {
+        height: 21px;
+    }
+
+    .change {
+        font-size: 14px;
+    }
+
+    button {
+        width: 354px;
+    }
 }
