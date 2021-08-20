@@ -198,7 +198,7 @@ button:hover {
     display: none;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 800px) {
     body {
         background-image: url(images/pattern-background-desktop.svg);
     }
