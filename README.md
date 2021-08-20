@@ -24,11 +24,11 @@ Users should be able to:
 - Mobile and desktop responsive size
 
 ### Screenshot
-
-![](/images/desktop-screenshot.png)
 *Desktop Screenshot*
-![](/images/mobile-screenshot.png)
+![](/images/desktop-screenshot.png)
 *Mobile Screenshot*
+![](/images/mobile-screenshot.png)
+
 
 ### Links
 
